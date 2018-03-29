@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.als.cerveja.MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="151dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="6dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/images" />
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/editTextPreco1"
+                        android:layout_width="223dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="3dp"
+                        android:ems="10"
+                        android:hint="@string/hint_preco"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/editTextQtd1"
+                        android:layout_width="223dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="3dp"
+                        android:ems="10"
+                        android:hint="@string/hint_ml"
+                        android:inputType="number"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="151dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="60dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="6dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/images" />
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/editTextPreco2"
+                        android:layout_width="223dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="3dp"
+                        android:ems="10"
+                        android:hint="@string/hint_preco"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/editTextQtd2"
+                        android:layout_width="223dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="3dp"
+                        android:ems="10"
+                        android:hint="@string/hint_ml"
+                        android:inputType="number"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonCalculo"
+                android:layout_width="260dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/colorAccent"
+                android:text="@string/text_button"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cerveja</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_preco">Valor da Cerveja</string>
+    <string name="hint_ml">Quantidade de Cerveja</string>
+    <string name="text_button">Calcular</string>
+    <string name="alert">Algum campo está vazio</string>
+    <string name="alert_title">Cerveja com menor preço</string>
+    <string name="alert_primeiro">A melhor cerveja =</string>
+    <string name="alert_igual">Valore iguais</string>
+</resources>
